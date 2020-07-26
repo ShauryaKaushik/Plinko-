@@ -1,4 +1,4 @@
-var Engine = Matter.Engine,
+var engine = Matter.Engine,
   World = Matter.World,
   Events = Matter.Events,
   Bodies = Matter.Bodies;
