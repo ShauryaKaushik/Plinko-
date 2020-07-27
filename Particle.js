@@ -4,9 +4,7 @@ class Particle {
         var options ={
             restitution:0.4
         }
-        this.restitution = restitution;
-      
-        this.body = Bodies.circle(x, y,restitution,options);       
+        this.body = Bodies.circle(x, y,this.restitution,options);       
         this.color= color (random(0, 255), random(0, 255), random(0, 255));
       
         
