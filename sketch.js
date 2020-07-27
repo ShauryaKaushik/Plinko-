@@ -1,8 +1,9 @@
-const engine = Matter.Engine,
+const Engine = Matter.Engine,
 const World = Matter.World,
 const Events = Matter.Events,
 const Bodies = Matter.Bodies;
  
+var engine,world;
 var particles;
 var plinkos = [];
 var divisions = [];
